@@ -1,5 +1,7 @@
 # Zoo World
 
+**[Play the WebGL demo](https://konstantkuz.github.io/zooworld/)**
+
 3D zoo seen from above (a perspective camera, slightly tilted): every 1-2 seconds an animal appears and wanders. Prey fly apart when they meet, predators eat whatever
 they touch (a predator duel leaves one survivor), a "Tasty!" label follows a predator that has just eaten, a hungry predator carries "Hungry!" and a frightened prey "Scary!" for as long as the state lasts, and the
 top-right counters show dead prey and dead predators.

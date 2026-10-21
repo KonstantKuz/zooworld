@@ -12,8 +12,6 @@ Unity 6 (URP) · Zenject · R3 · UniTask · NavMesh (pathfinding only) · uGUI
 
 Open the project in Unity 6 (6000.3), open `Assets/Scenes/Zoo.unity` and press Play. Everything needed is committed.
 
-To regenerate the configs, prefabs and the scene from scratch, run **ZooWorld → Build Demo Scene** (it overwrites them).
-
 ## Layers
 
 Code is split into three assemblies. Each one may use only what is listed, so the compiler enforces the direction.
@@ -24,8 +22,7 @@ Code is split into three assemblies. Each one may use only what is listed, so th
 | **Game** | `Zoo.Game` | Core | Every concrete implementation and rule of this project: modules on a Rigidbody (movement, visual, health, collision), gaits and routes, NavMesh and camera services, predator/prey traits and rules, `Hunt`/`Flee` nodes, spawning, kill statistics, level generation, installers |
 | **UI** | `Zoo.UI` | Core, Game | Views: counters and the "Tasty!" label |
 
-An animal is not code: it is an `ActorConfig` asset (a prefab plus traits and modules). `Zoo.Editor` (scene builder) sees all
-layers and nothing sees it.
+An animal is not code: it is an `ActorConfig` asset (a prefab plus traits and modules).
 
 ## Tests
 

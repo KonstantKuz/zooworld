@@ -10,8 +10,9 @@ Unity 6 (URP) · Zenject · R3 · UniTask · NavMesh (pathfinding only) · uGUI
 
 ## Run
 
-Open the project, run **ZooWorld → Build Demo Scene** once (it generates configs, prefabs and the scene), open
-`Assets/Scenes/Zoo.unity` and press Play.
+Open the project in Unity 6 (6000.3), open `Assets/Scenes/Zoo.unity` and press Play. Everything needed is committed.
+
+To regenerate the configs, prefabs and the scene from scratch, run **ZooWorld → Build Demo Scene** (it overwrites them).
 
 ## Layers
 

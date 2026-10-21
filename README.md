@@ -34,10 +34,6 @@ Run them from Window > General > Test Runner (the EditMode and PlayMode tabs).
 | `Assets/Tests/PlayMode` | `Zoo.Tests.PlayMode` | Things that need Unity running: pooling, physics perception, NavMesh paths and level connectivity, camera playfield and returning to the screen, hunger and fear timing, stopping movement on a Rigidbody, the "Tasty!" label, a smoke run of the `Zoo` scene |
 | `Assets/Tests/Common` | `Zoo.Tests.Common` | Fakes shared by both: fake actors, movement, navigation, statuses |
 
-Known issue (the test `EverySlotOfTheDefaultLevelGetsAWall` is ignored until it is fixed): with the default wall slots
-about 8% of generated levels lose a wall, because two slots conflict at their home positions and the fallback placement is
-rejected as well.
-
 Config assets live in `Assets/Content/Configs`, grouped as `Actors`, `Traits`, `Modules`, `Movement`, `Behaviour/<Actor>`.
 
 ## Architecture in one picture

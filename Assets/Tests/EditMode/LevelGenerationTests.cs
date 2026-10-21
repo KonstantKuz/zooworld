@@ -59,8 +59,6 @@ namespace Tests
         }
 
         [Test]
-        [Ignore("Known issue: with the default slots the first two walls conflict at home, so the fallback " +
-                "placement is rejected too and ~8% of generated levels silently lose a wall.")]
         public void EverySlotOfTheDefaultLevelGetsAWall()
         {
             LevelSettings settings = new();

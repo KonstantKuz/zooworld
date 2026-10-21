@@ -10,7 +10,7 @@ namespace Game.Level.Configs
         [SerializeField] private List<ObstacleSlot> slots = new()
         {
             new ObstacleSlot(new Vector2(-4f, 2f), new Vector2(1f, 5f)),
-            new ObstacleSlot(new Vector2(4f, -2f), new Vector2(5f, 1f)),
+            new ObstacleSlot(new Vector2(5f, -2f), new Vector2(5f, 1f)),
             new ObstacleSlot(new Vector2(0f, 0f), new Vector2(1f, 3f)),
             new ObstacleSlot(new Vector2(-8f, -3f), new Vector2(3f, 1f))
         };

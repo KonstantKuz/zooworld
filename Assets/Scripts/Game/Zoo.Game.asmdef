@@ -1,0 +1,19 @@
+{
+    "name": "Zoo.Game",
+    "rootNamespace": "",
+    "references": [
+        "Zoo.Core",
+        "Zenject",
+        "R3.Unity",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

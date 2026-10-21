@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5622e719d8e21a44db0d2050a9dcdb43, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: Assembly-CSharp::Animals.Configs.AnimalConfig
+  prefab: {fileID: 5366096343801986338, guid: 545ae8aa75e0b7e40819e4dd645b2013, type: 3}
+  traits:
+  - {fileID: 11400000, guid: c2ce280da96a21c4e8fc9777698ee1a7, type: 2}
+  modules:
+  - {fileID: 11400000, guid: e507c13c8fbacd84bac97a2439231467, type: 2}
+  - {fileID: 11400000, guid: 9ab994a591d1b4448910c7a6dc16695b, type: 2}
+  - {fileID: 11400000, guid: 2b4b86575171e5c41959ec4a89ea5e4a, type: 2}
+  - {fileID: 11400000, guid: 8bd53dd66d5051c4fab9a90f901e5d39, type: 2}
+  - {fileID: 11400000, guid: 58a38bd7dfa824e45876226b13c65481, type: 2}
+  mass: 1
+  spawnHeight: 0.5

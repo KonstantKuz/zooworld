@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c9781714ddd654f940cb8514c9819d, type: 3}
+  m_Name: FrogRoot
+  m_EditorClassIdentifier: Assembly-CSharp::Animals.Behaviour.Nodes.Configs.SelectorBehaviourConfig
+  children:
+  - {fileID: 11400000, guid: efa3fd2cc639c654d8614638d7d880f5, type: 2}
+  - {fileID: 11400000, guid: 6dc02eed6806a9145aed91ae9f4f96c5, type: 2}

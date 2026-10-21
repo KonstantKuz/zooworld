@@ -1,0 +1,20 @@
+{
+    "name": "Zoo.UI",
+    "rootNamespace": "",
+    "references": [
+        "Zoo.Core",
+        "Zoo.Game",
+        "Zenject",
+        "R3.Unity",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

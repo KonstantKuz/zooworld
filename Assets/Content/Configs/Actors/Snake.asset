@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5622e719d8e21a44db0d2050a9dcdb43, type: 3}
+  m_Name: Snake
+  m_EditorClassIdentifier: Assembly-CSharp::Animals.Configs.AnimalConfig
+  prefab: {fileID: 1162146566135019089, guid: 087fc3676685f4e46a403cbe7b40efdc, type: 3}
+  traits:
+  - {fileID: 11400000, guid: 2e18bed75dd7e6648a73e50408c6cb48, type: 2}
+  modules:
+  - {fileID: 11400000, guid: e507c13c8fbacd84bac97a2439231467, type: 2}
+  - {fileID: 11400000, guid: 9ab994a591d1b4448910c7a6dc16695b, type: 2}
+  - {fileID: 11400000, guid: 2b4b86575171e5c41959ec4a89ea5e4a, type: 2}
+  - {fileID: 11400000, guid: 8bd53dd66d5051c4fab9a90f901e5d39, type: 2}
+  - {fileID: 11400000, guid: fabc6d97aa649854881f8121df634413, type: 2}
+  mass: 2
+  spawnHeight: 0.5
